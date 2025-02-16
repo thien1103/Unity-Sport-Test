@@ -1,5 +1,4 @@
 const fs = require('fs'); //đây là module có sẵn của javascript giúp đọc nội dung file để truyền vào code, không hề xử lí minify, thiếu thư viên này thì không read được data
-
 const keyMapping = {    // chuyển đổi các field thành các key ngắn hơn để tối ưu dữ liệu
     "id": "a",
     "season_id": "b",
